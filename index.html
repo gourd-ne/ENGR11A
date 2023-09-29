@@ -29,7 +29,6 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Projects</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -55,7 +54,7 @@
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -79,7 +78,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/panda1.jpg" alt="..." />
                         </div>
                     </div>
                     <!-- Portfolio Item 3-->
@@ -253,7 +252,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Red Panda Jar</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -261,9 +260,35 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/panda1.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">Project 2 consisted of remixing an existing design or mixing two together. I decided to put together these two designs;
+                                        <br>https://www.tinkercad.com/things/hsidgKbdRPl-dice-jar
+                                        <br>https://www.models-resource.com/pc_computer/zootycoon2/model/16507/
+                                        <br>
+                                        <br><img class="img-fluid rounded mb-5" src="assets/img/portfolio/redpanda.jpg" alt="..." />
+                                        <br>I would have liked to sketch the dimensions to get a more accurate measurement of how to make the lid bigger, but I couldn't use TinkerCAD to take precise measurements. In the future, I plan on using Fusion360 to be able to sketch and plan things better ahead of time. However, this did present a unique opportunity to print with a more "feel-based" approach instead of trying to be analytic. This would be useful later when I 3d printed an elbow joint - though not included here as it was more for practice than for this project, it was helpful because you almost have to guess (at least at first) how much smaller to make a pin than the hole it goes into.
+                                        <br>
+                                        <br><img class="img-fluid rounded mb-5" src="assets/img/portfolio/panda3.png" alt="..." />
+                                        <br>The jar stayed the same for the most part, but I redid the lid, shown in the picture above. There's some things to note; for one, the original lid wasn't made that well in TinkerCAD. Essentially, the lid that came with the original Dice Jar design had a hole in it that I did not notice until I 3d printed it;
+                                        <br><img class="img-fluid rounded mb-5" src="assets/img/portfolio/panda2.jpg" alt="..." />
+                                        <br>That being said, there were some preemptive measures I attempted to take. Some peers had experince with TinkerCAD trying to print things in midair. To remedy this issue, I almost sunk the figure in a bit deeper into the lid to make sure that it would stick. I also made sure to use the "hole" tool to encapsulate any bits left midair, one of which existed due to me bending the tail of the red panda.
+                                        <br>
+                                        <br>There was something else, though, that affected my final print, and it actually came from the concept phase. When finding 3D models, I obtained one from a video game called Zoo Tycoon 2, released in 2004. As you can see in the TinkerCAD model picture previously, this resulted in a really polygonal and blocky panda. Video games, especially old ones, have restraints when it comes to the amount of polygons they can use - in fact, most of the depth comes from the texture files that are applied to the models. This means that they aren't always the best choices to 3D print, as video games have to use a lot of tricks to conserve memory usage.
+                                        <br><img class="img-fluid rounded mb-5" src="assets/img/portfolio/panda1.jpg" alt="..." />
+                                        <br>Above is the picture of the finished print. Another thing of note is how the lid was oriented to print. Normally, I could print this lid without supports - imagining the red panda isn't there, I would flip it 180 degrees and it would be almost entirely hassle-free. However, the inclusion of the figurine makes this option a bit less desirable - analyzing it in Meshmixer showed this to be the best orientation. Regardless, there is also the problem of supports being printed onto and around the figurine that could make it difficult to remove without accidentally messing with a piece.
+                                        <br>If I did this project without the specific guidelines of needing to combine two objects, I would print the figurine separately and glue it on - I feel like there would be less room for error there.
+                                        <video width="500px" height="500px" controls="controls">
+                                    <source src="assets/img/portfolio/panda.mp4" type="video/mp4" />
+                                    </video>
+                                        <br>That being said, a place where I found success was in changing the support settings and making them easier to take off. I achieved this by using a 0.4mm offset in the support settings, which made them much less resistant to being taken off. Additionally, I later made the diameter larger and would manually remove them in order to remove unnecessary supports. 
+                                        <br>
+                                        <br>One thing I could have done to increase the detail in the figurine is to lower the layer size. It likely would have come out looking better, but it increased the time by a lot. I ended up not doing this because it would have reduced the layer size for the whole lid - I am not comfortable modifying g-code to change printer settings midway through just yet, but it may be an option in the future. Something else that came up is that the lid would also not fit very stable on the jar - it would not squeeze on, and it would pop out very easily.
+                                        <br>
+                                        <br> There are several ways to address this. One unique way may be to use a more flexible material that doesn't resist bending as much - it would almost be like a tupperware lid. That being said, it would be best to prototype this solution with PLA and ensure it is the right size beforehand.
+                                        <br>Another solution is to simply make the lid larger. PLA tends to change while cooling, which can make parts that are supposed to fit perfectly <i>not do that</i>. By making the lid 5% or 10% larger, I would be able to ensure that it stays on - it may take a fair bit of experimenting to get it just right, though, and it would be worth thinking about how to expedite this process so it doesn't take 5 hours to print each prototype. One possible way of doing is would be to just print a very small cross-section of the lid without the figurine and all of the lip part of the lid. In the future, I will be sure to prototype more before committing to a whole print.
+                                    </p>
+
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -295,7 +320,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">test.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
