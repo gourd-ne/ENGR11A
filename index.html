@@ -105,7 +105,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/box1.jpg" alt="..." />
                         </div>
                     </div>
                     <!-- Portfolio Item 6-->
@@ -431,7 +431,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Laser Cut Box</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -439,9 +439,36 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/box1.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">The first step in the project was to sketch what we would be cutting and try to match the dimensions and transfer it to fusion. Most of the measurements were made in the previous project and adapted from the previous project in fusion - that being said, most of them were checked using digital calipers just to be certain. I also rounded my numbers to whole numbers this time around since I didn't think it would make that much of a difference. In the future, I would keep things more precise, at least within one decimal point, but I knew that if I rounded up the circuit board should fit <i>and</i> I could possibly account for kerf at the same time. Below is my sketch;
+                                        <img class="img-fluid rounded mb-5" src="assets/img/portfolio/box5.jpg" alt="..." />
+                                        Something to note is that I separated the pieces after making them in fusion (as opposed to keeping it all together in one box). This was to make the sketch process easier so I could export them as DXF files. It also helped me visualize how the box was going to come together better. I found that when all the parts were put together, it was hard to tell which part had which joints.
+                                        <img class="img-fluid rounded mb-5" src="assets/img/portfolio/box6.jpg" alt="..." />
+                                        One thing about the design that made it easier is that I adapted the alarm box design from the previous project. I did this by creating sketches on top of the already existing parts and creating new ones. The reason I did this is because there were some lines that were causing problems on the original design - by creating a new sketch, I "cleaned up" the design.
+                                        <br>
+                                        <img class="img-fluid rounded mb-5" src="assets/img/portfolio/box7.jpg" alt="..." />
+                                        These are the settings used; 20 mm/s speed and 100% power. This was found to be the best setting to cut completely through the plywood consistently. This was based off of testing done by the professors and TAs.
+                                        <br>
+                                        <br>
+                                        <b>Cutting the Box</b>
+                                        <br>
+                                        Once the box was cut, these were the pieces obtained:
+                                        <img class="img-fluid rounded mb-5" src="assets/img/portfolio/box3.jpg" alt="..." />
+                                        Because of the kerf (the excess material the laser burns off as it passes through), the pieces were kind of loose. This meant that it was really easy to all slide together, as shown in the picture, but it was also incredibly easy for it to fall apart. 
+                                        <img class="img-fluid rounded mb-5" src="assets/img/portfolio/box4.jpg" alt="..." />
+                                        The measurements were, for the most part, correct, though. This meant that I could prioritize strengthening the joints. This proved to be tricky - some joints would be impossible to laser cut, and because of how thin the material was, the normal finger joints used weren't as effective as they potentially could have been.
+                                        <br>
+                                        At first, I tried to make a dovetail joint in fusion. After watching a tutorial, I managed to do it successfully, but there was a major problem I didn't account for. Because of the angles, there was no way to laser-cut dovetail joints. Another type of joint I wanted to try, a mortise and tenon joint, was also impossible to laser-cut due to the fact that the tenon would have to be a smaller thickness in addition to the need to cut a hole through the wood it would go through.
+                                        <br>
+                                        I opted to keep things simple and simply make the two cube walls slightly taller to make it harder to take apart;
+                                        <img class="img-fluid rounded mb-5" src="assets/img/portfolio/box2.jpg" alt="..." />
+                                        <img class="img-fluid rounded mb-5" src="assets/img/portfolio/box1.jpg" alt="..." />  
+                                        At first, I made it too tall, so I filed down some of the parts and got them to go in. It was a lot more effective, but if it fell, it would still break into pieces. The way to solve this would likely be to try other types of joints. Because of the thinness of the material, I am not entirely convinced that simply longer joints would work or look good, but I would like to test it before entirely discrediting it. Another option to solve this problem would be to simply use glue. I opted not to since I felt as though it would go against the spirit of the project and the class, which is trying to do one's best within given constraints. 
+
+
+
+                                    </p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
