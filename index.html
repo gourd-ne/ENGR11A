@@ -117,6 +117,15 @@
                             <img class="img-fluid" src="assets/img/portfolio/client1.png" alt="..." />
                         </div>
                     </div>
+                    <!-- Portfolio Item 7-->
+                    <div class="col-md-7 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/bailey1.jpg" alt="..." />
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -545,6 +554,69 @@
                                     <br>
                                     We don't have a specific client, so we will be approaching this from a more philanthropic viewpoint and give different size bailey chairs to a veterinary clinic. We will also be posting the files online, and we could potentially make a guide on how to measure the correct dimensions for the dog/cat and line the chair with foam to make it comfier for the pet.
 
+
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 7-->
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" aria-labelledby="portfolioModal7" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Iteration</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/bailey1.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">
+
+                                    In the previous post, it was decided that our group would work on a bailey chair. The problem that our client is facing that we hope to resolve may change, but for now, it is to donate a prototype to a satellite Tufts clinic of a bailey chair, a device that helps animals with megaesophagus eat by holding them upright. The needs statement is; Veterinarians need a way to show clients how to use a bailey chair so they can learn how to feed their animals correct and get an idea of what the chair looks like.
+                                    <br> Some design principles that we would like to address are; make the chair sturdy enough to hold an animal; ensure the chair, if used, would not hurt an animal; and, if possible, make the chair adjustable in height for dogs. Success would look like being able to donate a chair and ship it in a usable state so that veterinarians can do hands-on demonstrations. 
+                                    <br>
+                                    <br>
+                                    There were a variety of online examples of bailey chairs. We used several as references, but the main one we used was this one due to breaking it down into very simple shapes;
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/bailey2.png" alt="..." />
+                                    This bailey chair holds the dog upright and fulfills the required purpose. We thought that it would be best  to create the bare essential first and then move into adding the additional features we wanted to see, particularly making it adjustable since we believe that could be difficult.
+
+                                    <br>
+                                    Our first design - the one I made - didn't use any parameters in Fusion. This was because I wanted to get it out as soon as possible and I had an hour and 30 minutes to start a print. I wanted to see where the print could malfunction and where there would be potential for complications. Our first prototype ended up looking like this;
+
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/bailey3.jpg" alt="..." />
+
+                                    Several things were found in our first test. The most important one, and it's visible in the picture if you look closely, is that the dogbowl holder came off very easily. This led me to the conclusion that it needs extra support, particularly since a dog is going to be reaching into and bumping into it. I'm very glad I caught that in time, as it was the most glaring flaw. The second flaw was that the walls were extremely thin. This was due to the scaling down of thickness, something that would be avoided when laser cutting, which is our ultimate plan. Finally, the base was slightly coming off of the build plate due to being so thin, among other reasons, so we would want to account for that if we were to continue 3D printing. The testing methodology we would use is building smaller prototypes and identifying underlying problems, particularly if we were to scale it up. Building large prototypes would cost a lot of time and resources, so we would not be able to test using actual animals, not to mention potential safety concerns.
+                                    <br>
+                                    Our next design looked like this;
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/bailey4.jpg" alt="..." />
+                                    This chair was superglued together. It is, obviously, made out of laser-cut wood, which means that the parts are thicker. I also added some holders to the dog bowl portion to support it better. This design ended up looking a lot better than the previous design, and it definitely felt like we were approaching something of substance. From this example, we found that the side walls could potentially slightly shift. To counter this, we would likely add metal support brackets in the final product that can hold the chair together. 
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/bailey5.png" alt="..." />
+                                    In the next attempt, Mark attempted to add in joints to hold the box together;
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/bailey6.jpg" alt="..." />
+                                    The finger joints were more of a proof of concept attempt, and they ended up not completely working, but some of them did stick. Mark later redid it and it ended up staying very upright. This attempt got us thinking about how we want to approach the assembly of the chair, and we ended up thinking that screws would likely be the best method. Here's what a fusion attempt of that looks like;
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/bailey7.png" alt="..." />
+                                    There's a couple of final notes to draw from this. The first is that, if you're looking at the main part, you can see that it has been broken down into to long "strips" or walls. This is to make the height of the chair adjustable; one would be able to screw in the front wall at the appropriate height and then attach the bowl holder. The other note is the amount of screw holes - we used 3mm diameter screws. Finally, the supports for the bowl holders are going to use a laser cut captive nut set up to hold the screws in better. It looks something like this;
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/bailey8.jpg" alt="..." />
+                                    <br>
+                                    The step to making the chair adjustable made the biggest difference. It also required the most work and the most creative thinking since there aren't designs online for how to make it adjustable. The complete front of the design needed to be changed, and screws needed to be added. The design we learned the most from was the change from 3D printing to laser cut. It was where we could truly see how to work with our medium, which difficulties we'd need to address, and how we could make the pieces fit together. It was also a lot easier to imagine the laser cut being made larger than the 3D printed piece being made larger; the 3D printed prototype didn't feel very practical, and it was obvious that it'd have a lot of mistakes that we wouldn't need to address when changing mediums to laser cutting, such as the wall thickness changing when being scaled down.
 
                                     </p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
